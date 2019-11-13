@@ -26,3 +26,8 @@ a::-moz-focus-outer {
     text-decoration: black underline;
     color: black;
  }
+
+ img{
+      width: 80%;
+
+ }
