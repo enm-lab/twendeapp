@@ -22,3 +22,7 @@ a::-moz-focus-outer {
     text-decoration: none;
     color: black;
 }
+ a:focus {
+    text-decoration: black underline;
+    color: black;
+ }
