@@ -1,48 +1,33 @@
-
-#one {
-    background-color: black;
-}
-.image{
-    height: 710px;
-    width: 1400px;
-    overflow: contain;
-}
-#two{
-    background-color: black;
+body {
+    background-color: rgba(153, 99, 0, 0.432);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-#three{
-    background-color: black;
-}
-#four{
-    background-color: black;
-}
-h1 {
-  font-family: monospace;
-}
-h4 {
-  font-weight: 100;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.about {
-    color: white;
-    text-align: center;
-    float: center;
-    margin-top: 5%;
+a:hover {
+    text-decoration: black underline;
+    color: black;
 }
 
-.navigation{
-    background-image: url(https://bit.ly/2pcFN0F);
-    min-height: 120px;
-    min-width: 1024px;
-    background-repeat:repeat;
-    
-}
-.bimage{
-    padding-top: 5%;
-    text-align: center;
+a:-moz-focus-inner {
+    text-decoration: black underline;
+    color: black;
 }
 
-.paragraph{
-    padding-top: 10%;
+a::-moz-focus-outer {
+    text-decoration: none;
+    color: black;
 }
+ a:focus {
+    text-decoration: black underline;
+    color: black;
+ }
+
+ img{
+      width: 80%;
+
+ }
