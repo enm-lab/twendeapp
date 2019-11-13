@@ -2,10 +2,6 @@ body {
     background-color: rgba(153, 99, 0, 0.432);
     font-family: 'Josefin Sans', sans-serif;
 }
-span {
-    position:relative;
-    top:0px;
-}
 a {
     text-decoration: none;
     color:black;
