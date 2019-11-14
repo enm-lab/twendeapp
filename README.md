@@ -21,7 +21,7 @@ Group travel can be a practical and logistical nightmare. However, thanks to Twe
 ## License
 ## MIT License
 
-Copyright (c) 2019 Mwangi Murimi
+Copyright (c) 2019 Mwangi Murimi, Mwanza Ndinda, Alicia Waihenya, Don Odhiambo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
