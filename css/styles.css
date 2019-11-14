@@ -31,4 +31,10 @@ a::-moz-focus-outer {
       width: 80%;
  }
 
+ .p{
+    font-size: 18px;
+ }
  
+ul{
+    font-size: 15px;
+}
