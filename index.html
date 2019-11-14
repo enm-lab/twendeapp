@@ -101,13 +101,14 @@
       </div>
     </div>
     <div class="row" id="join">
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>Sand-dune Safari at Suguta Valley</h3>
+      <div class="col-md-6 col-lg-6 trip" id="sand"> 
+        <h3 >Sand-dune Safari at Suguta Valley</h3>
         <img src="../twendeapp/assets/suguta.jpg">
-        <p>
+        <div id="suguta">
+        <p class="p">
           This is an amazing opportunity to go quad biking on the dunes and bond with your <br>
           travel mates, forming friendships might last you a life time.
-
+        
           <ul>
             <li>Date: November 17-19th 2019</li>
             <li>Timings: departure; 8:30am <br> return; 2:00pm</li>
@@ -117,9 +118,11 @@
           </ul>
         </p>
       </div>
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>Camping in Oloitokitok</h3>
+      </div>
+      <div class="col-md-6 col-lg-6 trip" id="oloi">
+        <h3 onclick="h3()">Camping in Oloitokitok</h3>
         <img src="../twendeapp/assets/camp.jpg">
+        <div id="camp">
         <p class="p">
           A vast scenary of green pastures, wild animals, and laughter <br> amongst yourselves is what you should expect
           to experience <br> during this three day get away.
@@ -139,9 +142,13 @@
           </ul>
         </p>
       </div>
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>A Cultural Experience at the Mara</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6 trip" id="maasai">
+        <h3 onclick="h3()">A Cultural Experience at the Mara</h3>
         <img src="../twendeapp/assets/masaaimara.jpg">
+        <div id="mara">
         <p class="p">
           create memories as you get to learn and interact first hand with <br> the Masaai
           culture and traditonal practices in the Mara.
@@ -163,9 +170,11 @@
           </ul>
         </p>
       </div>
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>Lakeside fun at Elementaita</h3>
+    </div>
+      <div class="col-md-6 col-lg-6 trip" id="elem">
+        <h3 onclick="h3()">Lakeside fun at Elementaita</h3>
         <img src="../twendeapp/assets/elementaita.jpg">
+        <div id="lake">
         <p class="p">
           For those of you who need a break from the busy streets of the <br> city, this is the perfect get away for you
           too escape and enjoy <br> the fresh lake-side air and silver-blue waters.
@@ -186,12 +195,17 @@
           </ul>
         </p>
       </div>
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>Rift-Valley Road Trip</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6 trip" id="rift">
+        <h3 onclick="h3()">Rift-Valley Road Trip</h3>
         <img src="../twendeapp/assets/riftvalley.jpg">
+        <div id="valley">
         <p class="p">
           Get your engines started and get ready for an unforgettable <br> experience which will lead you all the
-          way through the Great Rift Valley.
+
+          way through the Great <br> Rift Valley. 
 
           <ul>
             <li>Date: March 1-3rd 2020</li>
@@ -202,9 +216,11 @@
           </ul>
         </p>
       </div>
-      <div class="col-md-6 col-lg-6 trip">
-        <h3>Mount Kenya</h3>
+      </div>
+      <div class="col-md-6 col-lg-6 trip" id="mount">
+        <h3 onclick="h3()">Mount Kenya</h3>
         <img src="../twendeapp/assets/mt.kenya.jpg">
+        <div id="kenya">
         <p class="p">
           Are you ready to go and see the world and more from the peak <br> Mount Kenya? If so then tag along on this
           journey as we climb <br> towards the finish line.
@@ -269,6 +285,11 @@
     </div>
   </div>
   
+      </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+ <script src="js/scripts.js"></script>
 </body>
 
 </html>

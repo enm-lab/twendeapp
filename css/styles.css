@@ -95,3 +95,42 @@ h4 {
 hr {
     color: rgba(0, 0, 0, 0.425);
 }
+ 
+ul{
+    font-size: 15px;
+}
+
+.p{
+    font-size: 18px;
+}
+
+#suguta {
+    display: none;
+  }
+
+  #camp {
+    display: none;
+  }
+
+  #mara {
+    display: none;
+  }
+
+  #lake {
+    display: none;
+  }
+
+  #valley {
+    display: none;
+  }
+
+  #kenya {
+    display: none;
+  }
+  #sand {
+      background-size: cover;
+  }
+
+  h3:hover{
+      text-decoration: underline;
+  }
