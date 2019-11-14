@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -56,9 +58,8 @@
                     trips.</p>
                 </div>
                 <div class="dropdown-item"> <img class="tour-guide" src="assets/kathy.jpg">
-                  <p>Kathy, who served in another capacity within the company for 10 years before making the switch to a
-                    trip coordinator in 2017, was born and raised in Nakuru and through years of study, has a firm grasp
-                    of Kenyan culture, both tribal and cultural, and is a coordinator of our cultural trips.</p>
+                  <p>Kathy served as our Head of Accounting for 10 years before making the switch to a
+                    trip coordinator in 2017. She was born and raised in Nakuru and is our cultural expert.</p>
                 </div>
               </div>
             </li>
@@ -78,15 +79,15 @@
 
           <div class="carousel-inner">
             <div class="item active">
-              <img src="assets/mara.jpg" alt="Los Angeles" style="width:100%;">
+              <img src="assets/mara.jpg" alt="an elephant" style="width:100%;">
             </div>
 
             <div class="item">
-              <img src="assets/beach.jpg" alt="Chicago" style="width:100%;">
+              <img src="assets/beach.jpg" alt="a boat" style="width:100%;">
             </div>
 
             <div class="item">
-              <img src="assets/flamingos.jpg" alt="New york" style="width:100%;">
+              <img src="assets/flamingos.jpg" alt="flamingos" style="width:100%;">
             </div>
           </div>
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -101,47 +102,48 @@
       </div>
     </div>
     <div class="row" id="join">
-      <div class="col-md-6 col-lg-6 trip" id="sand"> 
-        <h3 >Sand-dune Safari at Suguta Valley</h3>
+      <div class="col-md-6 col-lg-6 trip" id="sand">
+        <h3>Sand-dune Safari at Suguta Valley</h3>
         <img src="../twendeapp/assets/suguta.jpg">
         <div id="suguta">
-        <p class="p">
-          This is an amazing opportunity to go quad biking on the dunes and bond with your <br>
-          travel mates, forming friendships might last you a life time.
-        
-          <ul>
-            <li>Date: November 17-19th 2019</li>
-            <li>Timings: departure; 8:30am <br> return; 2:00pm</li>
-            <li>Number of people required; 7</li>
-            <li>Accomodation: Suguta Valley Lodge </li>
-            <li>Budget per person is 100(US)dollars</li>
-          </ul>
-        </p>
-      </div>
+          <p class="p">
+            This is an amazing opportunity to go quad biking on the dunes and bond with your travel mates, forming friendships might last you a life time.
+
+            <ul>
+              <li>Departure : November 19, 2019 - 8:30am</li>
+              <li>Return : November 25, 2019 - 4:00pm</li>
+              <li>Number of people required: 7</li>
+              <li>Accomodation: Suguta Valley Lodge </li>
+              <li>Budget per person is 100(US)dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"> <b>Anne</b> &nbsp|&nbsp +254721353609 &nbsp|&nbsp <a href="mailto:anne@twende.co.ke">anne@twende.co.ke</a>
+          </p>
+        </div>
       </div>
       <div class="col-md-6 col-lg-6 trip" id="oloi">
         <h3 onclick="h3()">Camping in Oloitokitok</h3>
         <img src="../twendeapp/assets/camp.jpg">
         <div id="camp">
-        <p class="p">
-          A vast scenary of green pastures, wild animals, and laughter <br> amongst yourselves is what you should expect
-          to experience <br> during this three day get away.
+          <p class="p">
+            A vast scenary of green pastures, wild animals, and fun is what you should
+            expect during this three day get away.
 
-          <ul>
-            <li>Activities:
-              <ol>
-                <li><b>Hiking</b></li>
-                <li><b> Bonfire</b></li>
-                <li><b>Bird Watching</b> etc.</li>
-              </ol>
-            <li>Date: December 2-6th 2019</li>
-            <li>Timings: departure; 6:00am <br>return; 12:00pm</li>
-            <li>Number of people required; 15</li>
-            <li>Accomodation: Outward Bound Oloitokitok</li>
-            <li>Budget per person is 250(US)dollars</li>
-          </ul>
-        </p>
-      </div>
+            <ul>
+              <li>Activities:
+                <ol>
+                  <li><b>Hiking</b></li>
+                  <li><b> Bonfire</b></li>
+                  <li><b>Bird Watching</b> etc.</li>
+                </ol>
+              <li>Departure : December 2, 2019 - 7:00am</li>
+              <li>Return : December 9, 2019 - 6:00pm</li>
+              <li>Number of people required: 15</li>
+              <li>Accomodation: Outward Bound Oloitokitok</li>
+              <li>Budget per person is 250(US)dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"><b>Paul</b> &nbsp|&nbsp +254798273625 &nbsp|&nbsp <a href="mailto:paul@twende.co.ke">paul@twende.co.ke</a>
+          </p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -149,52 +151,55 @@
         <h3 onclick="h3()">A Cultural Experience at the Mara</h3>
         <img src="../twendeapp/assets/masaaimara.jpg">
         <div id="mara">
-        <p class="p">
-          create memories as you get to learn and interact first hand with <br> the Masaai
-          culture and traditonal practices in the Mara.
+          <p class="p">
+            Create memories as you learn and interact first hand with the Masaai
+            culture in the Mara as enjoy the beautiful scenery.
 
-          <ul>
-            <li>Activities:
-              <ol>
-                <li><b>Safari</b></li>
-                <li><b>Sight seeing</b></li>
-                <li><b> Hot air balloon glide over the Mara</b></li>
-                <li><b>Bush breakfast</b></li>
-                <li><b>Cultural tour</b></li>
-              </ol>
-            <li>Date: June 29th - July 4th 2020</li>
-            <li>Timings: departure; 3:00pm <br> return; 9:00pm</li>
-            <li>Number of people required; 20</li>
-            <li>Accomodation: Kempinski Olare Mara</li>
-            <li>Budget per person is 500(US)dollars</li>
-          </ul>
-        </p>
+            <ul>
+              <li>Activities:
+                <ol>
+                  <li><b>Safari</b></li>
+                  <li><b>Sight seeing</b></li>
+                  <li><b> Hot air balloon glide over the Mara</b></li>
+                  <li><b>Bush breakfast</b></li>
+                  <li><b>Cultural tour</b></li>
+                </ol>
+              <li>Departure : June 28, 2020 - 1:00 pm</li>
+              <li>Return : July 6, 2020 - 6:00pm</li>
+              <li>Number of people required: 20</li>
+              <li>Accomodation: Kempinski Olare Mara</li>
+              <li>Budget per person is 500(US)dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"><b>Kathy</b> &nbsp|&nbsp +254700938475 &nbsp|&nbsp <a href="mailto:kathy@twende.co.ke">kathy@twende.co.ke</a>
+          </p>
+        </div>
       </div>
-    </div>
       <div class="col-md-6 col-lg-6 trip" id="elem">
         <h3 onclick="h3()">Lakeside fun at Elementaita</h3>
         <img src="../twendeapp/assets/elementaita.jpg">
         <div id="lake">
-        <p class="p">
-          For those of you who need a break from the busy streets of the <br> city, this is the perfect get away for you
-          too escape and enjoy <br> the fresh lake-side air and silver-blue waters.
+          <p class="p">
+            For those of you who need a break from the busy streets of the city, this is the perfect get away for
+            you
+            too escape and enjoy the fresh lake-side air and silver-blue waters.
 
-          <ul>
-            <li>Activities:
-              <ol>
-                <li><b>Swimming</b></li>
-                <li><b>Fishing</b></li>
-                <li><b>Lakes Aquarium</b></li>
-                <li><b>Boat cruise</b></li>
-              </ol>
-            <li>Date: February 7-10th 2019</li>
-            <li>Timings: deaparture; 9:00am <br> return; 6:00pm</li>
-            <li>Accomodation: Lakeside Lodge</li>
-            <li>Number of people required; 15</li>
-            <li>Budget per person is 295(US) dollars</li>
-          </ul>
-        </p>
-      </div>
+            <ul>
+              <li>Activities:
+                <ol>
+                  <li><b>Swimming</b></li>
+                  <li><b>Fishing</b></li>
+                  <li><b>Lakes Aquarium</b></li>
+                  <li><b>Boat cruise</b></li>
+                </ol>
+              <li>Departure : Februrary 12, 2020 - 9:00 am</li>
+              <li>Return : February 23, 2020 - 5:00pm</li>
+              <li>Accomodation: Lakeside Lodge</li>
+              <li>Number of people required: 15</li>
+              <li>Budget per person is 295(US) dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"><b>Jean</b> &nbsp|&nbsp +254729384756 &nbsp|&nbsp <a href="mailto:jean@twende.co.ke">jean@twende.co.ke</a>
+          </p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -202,36 +207,39 @@
         <h3 onclick="h3()">Rift-Valley Road Trip</h3>
         <img src="../twendeapp/assets/riftvalley.jpg">
         <div id="valley">
-        <p class="p">
-          Get your engines started and get ready for an unforgettable <br> experience which will lead you all the
+          <p class="p">
+            Get your engines started and get ready for an unforgettable experience which will lead you all the
 
-          way through the Great <br> Rift Valley. 
+            way through the Great Rift Valley.
 
-          <ul>
-            <li>Date: March 1-3rd 2020</li>
-            <li>Timings: departure; 6:30am <br> return; 3:00pm</li>
-            <li>Accomodation: Valley Road Hotel</li>
-            <li>Number of people required; 10</li>
-            <li>Budget per person is 230(US)dollars</li>
-          </ul>
-        </p>
-      </div>
+            <ul>
+              <li>Departure : April 2, 2020 - 6:30am </li>
+              <li>Return : April 4, 2020 - 8:00pm</li>
+              <li>Accomodation: Valley Road Hotel</li>
+              <li>Number of people required: 10</li>
+              <li>Budget per person is 150(US)dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"><b>Juma</b> &nbsp|&nbsp +254790872536 &nbsp|&nbsp <a href="mailto:juma@twende.co.ke">juma@twende.co.ke</a>
+          </p>
+        </div>
       </div>
       <div class="col-md-6 col-lg-6 trip" id="mount">
         <h3 onclick="h3()">Mount Kenya</h3>
         <img src="../twendeapp/assets/mt.kenya.jpg">
         <div id="kenya">
-        <p class="p">
-          Are you ready to go and see the world and more from the peak <br> Mount Kenya? If so then tag along on this
-          journey as we climb <br> towards the finish line.
+          <p class="p">
+            Are you ready to go and see the world and more from the peak of Mount Kenya? If so then tag along on this
+            journey as we climb towards the finish line.
 
-          <ul>
-            <li>Date: March 5-10th 2020</li>
-            <li>Timings: departure; 8:00am <br> return; 6:00pm</li>
-            <li>Number of people required; 10 [age= 18 and above]</li>
-            <li>Budget per person is 200(US)dollars</li>
-          </ul>
-        </p>
+            <ul>
+              <li>Departure : March 5, 2020 - 8:00am</li>
+              <li>Return : March 16, 2020 - 6:00am</li>
+              <li>Number of people required: 10 (age = 18 and above)</li>
+              <li>Budget per person is 350(US)dollars</li>
+            </ul>
+            <img src="assets/contact.png" class="contact"><b>Njeri</b> &nbsp|&nbsp +254718273654 &nbsp|&nbsp <a href="mailto:njeri@twende.co.ke">njeri@twende.co.ke</a>
+          </p>
+        </div>
       </div>
     </div>
     <hr>
@@ -251,12 +259,12 @@
               </div>
               <br>
               <div class="mc-field-group">
-                <label for="mce-FNAME">&nbsp&nbsp&nbsp First Name &nbsp&nbsp&nbsp</label>
+                <label for="mce-FNAME">&nbsp&nbsp&nbsp First Name &nbsp&nbsp</label>
                 <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
               </div>
               <br>
               <div class="mc-field-group">
-                <label for="mce-LNAME">&nbsp&nbsp&nbsp Last Name &nbsp&nbsp&nbsp</label>
+                <label for="mce-LNAME">&nbsp&nbsp&nbsp Last Name &nbsp&nbsp</label>
                 <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
               </div>
               <br>
@@ -264,7 +272,6 @@
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
               </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                   name="b_aab246eed2e5505815e9945f1_1f1ea7e262" tabindex="-1" value=""></div>
               <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe"
@@ -282,14 +289,14 @@
         <a target="#blank" href="http://facebook.com"><img class="social" src="assets/facebook.jpg"></a> &nbsp
         <a target="#blank" href="http://twitter.com"><img class="social" src="assets/twitter.jpg"></a>
       </div>
+      <br>
+      <div class="row text-center">
+        Twende &copy; 2019
+      </div>
+      <br>
     </div>
   </div>
-  
-      </div>
   </div>
-
-  <script src="js/jquery.js"></script>
- <script src="js/scripts.js"></script>
 </body>
 
 </html>

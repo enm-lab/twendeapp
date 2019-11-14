@@ -1,10 +1,10 @@
 body {
-    background-color: rgba(153, 99, 0, 0.432);
+    background-color: #DFAE74;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #DFAE74;
     border-bottom-width: 1px;
     border-bottom-color: rgba(0, 0, 0, 0.2);
     border-top: none;
@@ -34,7 +34,7 @@ img {
 }
 
 .dropdown-menu {
-    background-color: rgb(207, 172, 137);
+    background-color: #DFAE74;
     padding: 0px;
     padding-top: 5px;
 }
@@ -47,30 +47,6 @@ ul {
     font-size: 15px;
 }
  
-.bimage{
-   
-    overflow: contain;
-}
-#two{
-    background-color:rgb(179, 153, 11);
-}
-
-h4 {
-  font-weight: 100;
-}
-.navigation{
-    background-image: url(https://bit.ly/2pcFN0F);
-    min-height: 120px;
-    min-width: 1024px;
-    background-repeat:repeat;
-}
-.bimage{
-    padding-top: 5%;
-    text-align: center;
-}
-.paragraph{
-    padding-top: 10%;
-}
 .button {
     display: inline-block;
     padding: 0.35em;
@@ -78,11 +54,11 @@ h4 {
     color: rgb(0, 0, 0);
     text-align: center;
     transition: all 0.2s;
-    background-color: rgb(253, 221, 174);
+    background-color: #DFAE74;
 }
 
 .button:hover {
-    color: rgb(255, 236, 208);
+    color: #DFAE74;
     background-color: rgba(0, 0, 0, 0.685);
 }
 .social{
@@ -134,3 +110,15 @@ ul{
   h3:hover{
       text-decoration: underline;
   }
+.contact {
+    width:10%;
+    float: left;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: black underline;
+}
