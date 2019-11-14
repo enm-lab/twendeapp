@@ -47,6 +47,43 @@ ul {
     font-size: 15px;
 }
 
+ }
+ 
+.bimage{
+   
+    overflow: contain;
+}
+#two{
+    background-color:rgb(179, 153, 11);
+}
+
+h4 {
+  font-weight: 100;
+}
+.about {
+    color: white;
+    text-align: center;
+    float: center;
+    margin-top: 5%;
+}
+.navigation{
+    background-image: url(https://bit.ly/2pcFN0F);
+    min-height: 120px;
+    min-width: 1024px;
+    background-repeat:repeat;
+}
+.bimage{
+    padding-top: 5%;
+    text-align: center;
+}
+.paragraph{
+    padding-top: 10%;
+}
+#us{
+    column-count: 2;
+    font-size: x-large;
+}
+
 .button {
     display: inline-block;
     padding: 0.35em;
