@@ -10,7 +10,6 @@ body {
     border-top: none;
     border-right: none;
     border-width: none;
-    color: black;
     border-radius: 0px;
 }
 
@@ -19,8 +18,8 @@ img {
 }
 
 .tour-guide {
-    width:40%;
-    height:100%;
+    width: 40%;
+    height: 100%;
     float: left;
     padding-bottom: 10px;
     padding-right: 2px;
@@ -29,8 +28,8 @@ img {
 
 .dropdown-item {
     padding: 0px;
-    width:400px;
-    display:block;
+    width: 400px;
+    display: block;
     clear: both;
 }
 
@@ -39,10 +38,26 @@ img {
     padding: 0px;
     padding-top: 5px;
 }
- .p{
+
+.p {
     font-size: 18px;
- }
- 
-ul{
+}
+
+ul {
     font-size: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.35em;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: all 0.2s;
+    background-color: rgb(253, 221, 174);
+}
+
+.button:hover {
+    color: rgb(255, 236, 208);
+    background-color: rgba(0, 0, 0, 0.685);
 }
