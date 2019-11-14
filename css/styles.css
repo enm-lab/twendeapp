@@ -3,32 +3,49 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-right: none;
+    border-width: none;
+    border-radius: 0px;
 }
 
-a:hover {
-    text-decoration: black underline;
-    color: black;
+img {
+    width: 80%;
 }
 
-a:-moz-focus-inner {
-    text-decoration: black underline;
-    color: black;
+.tour-guide {
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
-a::-moz-focus-outer {
-    text-decoration: none;
-    color: black;
+.dropdown-item {
+    padding: 0px;
+    width: 400px;
+    display: block;
+    clear: both;
 }
- a:focus {
-    text-decoration: black underline;
-    color: black;
- }
 
- img{
-      width: 80%;
+.dropdown-menu {
+    background-color: rgb(207, 172, 137);
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 15px;
+}
 
  }
  
@@ -40,10 +57,6 @@ a::-moz-focus-outer {
     background-color:rgb(179, 153, 11);
 }
 
-
-h1 {
-  font-family: monospace;
-}
 h4 {
   font-weight: 100;
 }
@@ -71,3 +84,27 @@ h4 {
     font-size: x-large;
 }
 
+.button {
+    display: inline-block;
+    padding: 0.35em;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: all 0.2s;
+    background-color: rgb(253, 221, 174);
+}
+
+.button:hover {
+    color: rgb(255, 236, 208);
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.social{
+    width:50px;
+}
+.social:hover {
+    width:100px;
+    transition: 0.5s;
+}
+hr {
+    color: rgba(0, 0, 0, 0.425);
+}

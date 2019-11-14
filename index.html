@@ -3,7 +3,7 @@
 
 <head>
   <title>Twende - join a group trip</title>
-  <link rel="icon" href="assets/kenya.jpg">
+  <link rel="icon" href="assets/icon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -15,13 +15,59 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row topbar">
-      <div class="col-12 text-left">
-        <h3> &nbsp TWENDE &nbsp&nbsp|&nbsp&nbsp <a target="blank" href="about.html">About Twende</a>
-          &nbsp&nbsp|&nbsp&nbsp <a href="#join">Join a trip</a></h3>
-      </div>
-    </div>
     <div class="row">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">TWENDE</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a target="#blank" href="about.html">About Us</a></li>
+            <li><a href="#join">Join a trip</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Our coordinators
+              </a>
+              <div class="dropdown-menu container-fluid" aria-labelledby="navbarDropdown">
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/paul.jpg">
+                  <p>Paul is our lead coordinator and has over 10 years experience in the tour industry. He is our
+                    logistics and camping expert and has been with us since 2012.</p>
+                </div>
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/njeri.jpg">
+                  <p>Njeri joined us in 2014 with one purpose: To help people have amazing getaways from everyday life,
+                    and she has not failed us since. A hiking expert , she has been working in the tourism industry for
+                    12 years.</p>
+                </div>
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/jean.jpg">
+                  <p>Born in France, Jean has displayed an impressive amount of knowledge on African wildlife and has
+                    served as our wildlide expert and coordinator of our trips in national parks since 2014. He has been
+                    working in the tourism industry for 10 years.</p>
+                </div>
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/anne.jpg">
+                  <p>Anne is our most cheerful and qualified guide and has been with us since 2009. She has been working
+                    in the tourism industry, more specifically in transport and accomodation coordination for 20 years.
+                  </p>
+                </div>
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/juma.jpg">
+                  <p>Few people understand the Kenyan coast like Juma. Born in Mombasa, he has been in the tourism
+                    industry for 15 years and joined us in 2013. Since then, he has been our coordinator for all coastal
+                    trips.</p>
+                </div>
+                <div class="dropdown-item"> <img class="tour-guide" src="assets/kathy.jpg">
+                  <p>Kathy, who served in another capacity within the company for 10 years before making the switch to a
+                    trip coordinator in 2017, was born and raised in Nakuru and through years of study, has a firm grasp
+                    of Kenyan culture, both tribal and cultural, and is a coordinator of our cultural trips.</p>
+                </div>
+              </div>
+            </li>
+            <li><a href="#sub">Subscribe</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row carousel">
       <div class="container-fluid">
         <div id="myCarousel" class="col-12 carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -55,29 +101,170 @@
       </div>
     </div>
     <div class="row" id="join">
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>Sand-dune Safari at Suguta Valley</h3>
         <img src="../twendeapp/assets/suguta.jpg">
+        <p>
+          This is an amazing opportunity to go quad biking on the dunes and bond with your <br>
+          travel mates, forming friendships might last you a life time.
+
+          <ul>
+            <li>Date: November 17-19th 2019</li>
+            <li>Timings: departure; 8:30am <br> return; 2:00pm</li>
+            <li>Number of people required; 7</li>
+            <li>Accomodation: Suguta Valley Lodge </li>
+            <li>Budget per person is 100(US)dollars</li>
+          </ul>
+        </p>
       </div>
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>Camping in Oloitokitok</h3>
         <img src="../twendeapp/assets/camp.jpg">
+        <p class="p">
+          A vast scenary of green pastures, wild animals, and laughter <br> amongst yourselves is what you should expect
+          to experience <br> during this three day get away.
+
+          <ul>
+            <li>Activities:
+              <ol>
+                <li><b>Hiking</b></li>
+                <li><b> Bonfire</b></li>
+                <li><b>Bird Watching</b> etc.</li>
+              </ol>
+            <li>Date: December 2-6th 2019</li>
+            <li>Timings: departure; 6:00am <br>return; 12:00pm</li>
+            <li>Number of people required; 15</li>
+            <li>Accomodation: Outward Bound Oloitokitok</li>
+            <li>Budget per person is 250(US)dollars</li>
+          </ul>
+        </p>
       </div>
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>A Cultural Experience at the Mara</h3>
         <img src="../twendeapp/assets/masaaimara.jpg">
+        <p class="p">
+          create memories as you get to learn and interact first hand with <br> the Masaai
+          culture and traditonal practices in the Mara.
+
+          <ul>
+            <li>Activities:
+              <ol>
+                <li><b>Safari</b></li>
+                <li><b>Sight seeing</b></li>
+                <li><b> Hot air balloon glide over the Mara</b></li>
+                <li><b>Bush breakfast</b></li>
+                <li><b>Cultural tour</b></li>
+              </ol>
+            <li>Date: June 29th - July 4th 2020</li>
+            <li>Timings: departure; 3:00pm <br> return; 9:00pm</li>
+            <li>Number of people required; 20</li>
+            <li>Accomodation: Kempinski Olare Mara</li>
+            <li>Budget per person is 500(US)dollars</li>
+          </ul>
+        </p>
       </div>
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>Lakeside fun at Elementaita</h3>
         <img src="../twendeapp/assets/elementaita.jpg">
+        <p class="p">
+          For those of you who need a break from the busy streets of the <br> city, this is the perfect get away for you
+          too escape and enjoy <br> the fresh lake-side air and silver-blue waters.
+
+          <ul>
+            <li>Activities:
+              <ol>
+                <li><b>Swimming</b></li>
+                <li><b>Fishing</b></li>
+                <li><b>Lakes Aquarium</b></li>
+                <li><b>Boat cruise</b></li>
+              </ol>
+            <li>Date: February 7-10th 2019</li>
+            <li>Timings: deaparture; 9:00am <br> return; 6:00pm</li>
+            <li>Accomodation: Lakeside Lodge</li>
+            <li>Number of people required; 15</li>
+            <li>Budget per person is 295(US) dollars</li>
+          </ul>
+        </p>
       </div>
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>Rift-Valley Road Trip</h3>
         <img src="../twendeapp/assets/riftvalley.jpg">
+        <p class="p">
+          Get your engines started and get ready for an unforgettable <br> experience which will lead you all the
+          way through the Great Rift Valley.
+
+          <ul>
+            <li>Date: March 1-3rd 2020</li>
+            <li>Timings: departure; 6:30am <br> return; 3:00pm</li>
+            <li>Accomodation: Valley Road Hotel</li>
+            <li>Number of people required; 10</li>
+            <li>Budget per person is 230(US)dollars</li>
+          </ul>
+        </p>
       </div>
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 trip">
         <h3>Mount Kenya</h3>
         <img src="../twendeapp/assets/mt.kenya.jpg">
+        <p class="p">
+          Are you ready to go and see the world and more from the peak <br> Mount Kenya? If so then tag along on this
+          journey as we climb <br> towards the finish line.
+
+          <ul>
+            <li>Date: March 5-10th 2020</li>
+            <li>Timings: departure; 8:00am <br> return; 6:00pm</li>
+            <li>Number of people required; 10 [age= 18 and above]</li>
+            <li>Budget per person is 200(US)dollars</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="sub">
+      <div class="col-12 text-center">
+        <h3>Subscribe to our mailing list to get updates on new trips and promotions.</h3>
+        <div id="mc_embed_signup">
+          <form action="https://github.us5.list-manage.com/subscribe/post?u=aab246eed2e5505815e9945f1&amp;id=1f1ea7e262"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              <br>
+              <div class="mc-field-group">
+                <label for="mce-FNAME">&nbsp&nbsp&nbsp First Name &nbsp&nbsp&nbsp</label>
+                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              </div>
+              <br>
+              <div class="mc-field-group">
+                <label for="mce-LNAME">&nbsp&nbsp&nbsp Last Name &nbsp&nbsp&nbsp</label>
+                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+              </div>
+              <br>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                  name="b_aab246eed2e5505815e9945f1_1f1ea7e262" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe"
+                  class="button"></div>
+            </div>
+          </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script
+          type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+      </div>
+      <hr>
+      <div class="row text-center socials">
+        <h3>Social media</h3>
+        <a target="#blank" href="http://facebook.com"><img class="social" src="assets/facebook.jpg"></a> &nbsp
+        <a target="#blank" href="http://twitter.com"><img class="social" src="assets/twitter.jpg"></a>
       </div>
     </div>
   </div>
