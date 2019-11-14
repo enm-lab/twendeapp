@@ -61,3 +61,13 @@ ul {
     color: rgb(255, 236, 208);
     background-color: rgba(0, 0, 0, 0.685);
 }
+.social{
+    width:50px;
+}
+.social:hover {
+    width:100px;
+    transition: 0.5s;
+}
+hr {
+    color: rgba(0, 0, 0, 0.425);
+}
