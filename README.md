@@ -15,6 +15,8 @@ Group travel can be a practical and logistical nightmare. However, thanks to Twe
 ## Support and contact details
 * +254795118518 Mwanza Ndinda
 * mwangimurimi15@gmail.com Mwangi Murimi
+## Known bugs
+Welcome email is often treated as spam and may not be immediately seen by the subscriber.
 ## Screenshots
 ![screencapture-mwangimurimi-github-io-twendeapp-2019-11-14-23_01_59](https://user-images.githubusercontent.com/56479833/68891889-d6b27400-0732-11ea-8e44-d88f4315410e.png)
 ![screencapture-mwangimurimi-github-io-twendeapp-about-html-2019-11-14-23_02_15](https://user-images.githubusercontent.com/56479833/68891892-d7e3a100-0732-11ea-92df-fffee695390f.png)
